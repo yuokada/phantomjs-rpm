@@ -38,14 +38,6 @@ mkdir -p %{buildroot}/usr/share/phantomjs/examples
 
 %{__install} -Dp -m0755 phantomjs/examples/*.js %{buildroot}/usr/share/phantomjs/examples/
 
-# /usr/share/phantomjs
-# /usr/share/phantomjs/CONTRIBUTING.md
-# /usr/share/phantomjs/ChangeLog
-# /usr/share/phantomjs/LICENSE.BSD
-# /usr/share/phantomjs/README.md
-# /usr/share/phantomjs/examples
-
-
 %clean
 
 %files
